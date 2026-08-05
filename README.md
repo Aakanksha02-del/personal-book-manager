@@ -49,19 +49,21 @@ Deployment
 
 📂 Project Structure
 
-personal-book-manager/
+```text
+personal-book-manager
 │
-├── frontend/
-│   ├── src/
+├── frontend
+│   ├── src
 │   └── package.json
 │
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
+├── backend
+│   ├── models
+│   ├── routes
+│   ├── controllers
 │   └── server.js
 │
 └── README.md
+```
 
 ⚙️ Installation & Setup
 
