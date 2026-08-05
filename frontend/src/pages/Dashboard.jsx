@@ -42,7 +42,7 @@ function Dashboard() {
   const fetchBooks = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/books",
+        "https://personal-book-manager-9wk7.onrender.com/api/books",
         {
           method: "GET",
           headers: {
@@ -134,7 +134,7 @@ function Dashboard() {
 
       if (editingBookId) {
         const response = await fetch(
-          `http://localhost:5000/api/books/${editingBookId}`,
+          `https://personal-book-manager-9wk7.onrender.com/api/books/${editingBookId}`,
           {
             method: "PUT",
 
@@ -175,7 +175,7 @@ function Dashboard() {
       // ADD NEW BOOK
 
       const response = await fetch(
-        "http://localhost:5000/api/books",
+       "https://personal-book-manager-9wk7.onrender.com/api/books",
         {
           method: "POST",
 
@@ -226,7 +226,7 @@ function Dashboard() {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/api/books/${bookId}`,
+        `https://personal-book-manager-9wk7.onrender.com/api/books/${bookId}`,
         {
           method: "DELETE",
 
